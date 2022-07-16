@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
 
-    internal lateinit var profileCircleImageView : CircleImageView
-    internal var profileImageUrl = "https://avatars3.githubusercontent.com/u/24997732?s=460&v=4"
+    private lateinit var profileCircleImageView : CircleImageView
+    private var profileImageUrl = "https://avatars3.githubusercontent.com/u/24997732?s=460&v=4"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
